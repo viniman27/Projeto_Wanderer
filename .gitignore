@@ -123,3 +123,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ren'Py: dados locais, caches e arquivos gerados
+*.rpyc
+*.rpymc
+*.rpyb
+*.rpa
+*.save
+**/saves/
+**/cache/
+**/persistent
+**/persistent.*
+/renpy/
+/log.txt
+/traceback.txt
+/errors.txt
+/lint.txt
+/game/script_version.txt
+*.exe

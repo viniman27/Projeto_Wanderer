@@ -1,6 +1,42 @@
 # Projeto_Wanderer
 Adaptação de uma obra de Steve Jackson para visual novel.
 
+## Abrir e editar o jogo
+
+Este repositório contém o projeto editável de Wanderer 1.1: roteiros, imagens,
+interface, fontes, músicas e efeitos sonoros. Os scripts e recursos ficam em
+`game/`, na estrutura de projeto do Ren'Py.
+
+1. Instale o SDK do [Ren'Py](https://www.renpy.org/). A distribuição original
+   utiliza **Ren'Py 7.4.4.1439**; versões mais recentes podem exigir adaptação.
+2. Clone este repositório na pasta de projetos configurada no launcher.
+3. Atualize a lista de projetos, selecione `Projeto_Wanderer` e clique em
+   **Launch Project / Iniciar projeto**. Edite os arquivos `.rpy` em `game/`.
+
+O motor, executáveis, caches, arquivos compilados e saves pessoais não são
+versionados. Não é necessário um `archive.rpa`: os recursos estão disponíveis
+como arquivos editáveis. Para gerar uma distribuição, use **Build Distributions**
+no SDK compatível.
+
+## Validação e limitações conhecidas
+
+- O autor confirmou uma partida nova do início ao fim na distribuição 1.1.
+- Testes automatizados de lógica no motor original chegaram do início aos créditos
+  nos finais de submissão, alvorecer, lorde e verdadeiro (rota de Dartmol).
+  Esses testes não substituem a verificação visual nem cobrem todas as escolhas.
+- Saves de versões anteriores podem falhar com
+  `NameError: name 'elixirHP_left' is not defined`. Comece uma nova partida;
+  a migração desses saves ainda não foi implementada.
+- O lint do motor aponta referências de áudio ausentes no material original:
+  `musics/musica tensao.mp3`,
+  `music/yt1s.com - Magic Fantasy Music  The Mystic  Beautiful Violin.mp3` e
+  `musics/efeito_sonoro/fantasma_sussuro.mp3`.
+
+Os créditos originais seguem abaixo. A inclusão de recursos de terceiros não
+altera os direitos de seus respectivos autores; confira as permissões aplicáveis
+antes de redistribuir ou utilizar esses materiais em outro projeto.
+
+
 objetivos do projeto:
 
 - por meio desse projeto, queriamos expressar demonstrações artisticas (literatura, artes visuais, musica, entre outros) de forma divertida e acessivel a diversas pessoas.
