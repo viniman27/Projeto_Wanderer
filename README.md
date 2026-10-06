@@ -16,6 +16,17 @@ Use o ZIP **Wanderer-1.1-Windows.zip** da
 não os downloads automáticos “Source code”. O pacote não contém saves pessoais;
 se já jogou uma versão antiga, prefira iniciar uma nova partida.
 
+## Guia de finais e rotas — contém spoilers
+
+**[Baixar o guia em PDF](https://github.com/viniman27/Projeto_Wanderer/releases/download/v1.1.0/Guia-de-Finais-Wanderer-1.1.pdf)**
+
+Guia de oito páginas com as condições dos cinco encerramentos, mapa das decisões,
+rotas de Dartmol e Viniman, nome secreto, dicas de combate, curiosidades e pontos
+úteis para salvar. Inclui limites conhecidos e referências ao código da versão 1.1.
+
+Também disponível para [visualizar no GitHub](docs/Guia-de-Finais-Wanderer-1.1.pdf)
+ou [ler em texto](docs/Guia-de-Finais-Wanderer-1.1.md).
+
 ## Abrir e editar o jogo
 
 Este repositório contém o projeto editável de Wanderer 1.1: roteiros, imagens,
