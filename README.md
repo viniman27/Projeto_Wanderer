@@ -1,6 +1,21 @@
 # Projeto_Wanderer
 Adaptação de uma obra de Steve Jackson para visual novel.
 
+## Baixar e jogar (Windows)
+
+**[Baixar Wanderer 1.1 para Windows — jogo completo](https://github.com/viniman27/Projeto_Wanderer/releases/download/v1.1.0/Wanderer-1.1-Windows.zip)**
+
+1. Baixe o ZIP acima e extraia **todo** o conteúdo.
+2. Abra `wanderer_shiroto.exe` na pasta extraída.
+3. Se precisar da versão 32 bits, use `wanderer_shiroto-32.exe`.
+
+O executável, o motor Ren'Py e os recursos já estão incluídos. Para jogar, não
+é necessário instalar Python ou o SDK. Não mova o `.exe` sozinho para outra pasta.
+Use o ZIP **Wanderer-1.1-Windows.zip** da
+[página de Releases](https://github.com/viniman27/Projeto_Wanderer/releases/tag/v1.1.0),
+não os downloads automáticos “Source code”. O pacote não contém saves pessoais;
+se já jogou uma versão antiga, prefira iniciar uma nova partida.
+
 ## Abrir e editar o jogo
 
 Este repositório contém o projeto editável de Wanderer 1.1: roteiros, imagens,
